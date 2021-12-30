@@ -1,0 +1,92 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+p {
+	margin-bottom: 50px;
+}
+
+img {
+	width: 100%;
+}
+
+section, .cards {
+	margin: 50px 0;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 35px;
+	margin-bottom: 15px;
+}
+
+.description {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 36px;
+}
+
+.date {
+	font-weight: 400;
+	font-size: 12px;
+	color: #888888;
+	margin-bottom: 30px;
+}
+
+.container {
+	max-width: 880px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.date_align-center {
+	text-align: center;
+}
+
+.title_align-center {
+	text-align: center;
+}
+
+.nav {
+	padding: 40px 0;
+}
+.nav__logo {
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	text-align: center;
+}
+
+.image {
+	height: 250px;
+	object-fit:cover;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.cards__image {
+	max-width: 50%;
+	margin-bottom: auto;
+}
+
+.cards__summary {
+	max-width: 50%;
+	padding: 0 0 0 20px;
+	height: 250px;
+	overflow: hidden;
+}
+
+.cards {
+	display: flex;
+}
+
+.cards__date {
+	margin-bottom: 15px;
+}
